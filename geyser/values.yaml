@@ -29,7 +29,7 @@ config:
 
   savedUserLogins: ~
     # - SomeUsername
-    # - SomeOtherUsername
+    # - SomeMoreUsername
 
   pingPassthroughInterval: 10
 
