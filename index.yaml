@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  geyser:
+  - annotations:
+      artifacthub.io/links: |-
+        - name: GitHub
+          url: https://github.com/Joffreybvn/k8s-geyser
+    apiVersion: v2
+    appVersion: 1.21.9
+    created: "2025-10-25T12:45:29.24575612Z"
+    description: Geyser (Minecraft) Helm chart for Kubernetes
+    digest: f3c90868965d6b9c205731e0f341ac94546e0ee62b497d487c87fd3eb0d00257
+    name: geyser
+    type: application
+    urls:
+    - https://github.com/Joffreybvn/k8s-geyser/releases/download/geyser-0.1.0/geyser-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-10-25T12:45:29.2457672Z"
