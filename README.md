@@ -1,3 +1,1 @@
-# K8s Geyser
-
-Geyser for Kubernetes
+# K8s Geyser - Helm Chart
