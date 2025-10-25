@@ -1,18 +1,18 @@
 
 deployment:
   replicas: 1
-  image: geyser
-  tag: latest
+  image: "ghcr.io/joffreybvn/k8s-geyser"
+  tag: "0.0.2"
   resources:
     requests:
       cpu: 100m
-      memory: 128Mi
+      memory: 1Gi
     limits:
-      cpu: 100m
-      memory: 128Mi
+      cpu: 1000m
+      memory: 1250Mi
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 19132
 
 config:
