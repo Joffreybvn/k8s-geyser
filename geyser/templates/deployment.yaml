@@ -19,6 +19,7 @@ spec:
           image: {{ .Values.deployment.image }}:{{ .Values.deployment.tag }}
           ports:
             - containerPort: {{ .Values.config.bedrock.port }}
+              protocol: UDP
               name: bedrock
           resources:
 {{ .Values.deployment.resources | toYaml | indent 12 }}
