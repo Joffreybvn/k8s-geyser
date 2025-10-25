@@ -25,12 +25,12 @@ spec:
 {{ .Values.deployment.resources | toYaml | indent 12 }}
           volumeMounts:
             - name: geyser-config
-              mountPath: /opt/geyser/config.yaml
-              subPath: config.yaml
+              mountPath: /opt/geyser/config.yml
+              subPath: config.yml
       volumes:
         - name: geyser-config
           configMap:
             name: {{ include "geyser.fullname" . }}
             items:
-              - key: config.yaml
-                path: config.yaml
+              - key: config.yml
+                path: config.yml
