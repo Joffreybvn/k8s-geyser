@@ -15,7 +15,7 @@ RUN chmod +x run.sh
 
 # Preload Geyjer configs
 RUN ./run.sh & pid=$! \
-    && sleep 20 \
+    && sleep 30 \
     && kill $pid || true
 
 CMD ["/opt/geyser/run.sh"]
