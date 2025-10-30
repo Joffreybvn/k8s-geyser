@@ -2,7 +2,7 @@
 deployment:
   replicas: 1
   image: "ghcr.io/joffreybvn/k8s-geyser"
-  tag: "0.0.2"
+  tag: "0.0.3"
   resources:
     requests:
       cpu: 100m
